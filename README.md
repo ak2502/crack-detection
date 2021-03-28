@@ -1,6 +1,6 @@
 ## crack-detection
 
-This project is used to detect areas of crack in a given sample image:
+This project uses Python's OpenCV library to detect areas of crack in a given sample image:
 
 - model.py file contains code for training the model
 - The trained model is saved in trained_model.sav
