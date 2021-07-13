@@ -1,0 +1,73 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static './style.css' %}">
+    <link rel="icon" href="{%static 'logo.png'%}" type="image/png">
+    <title>Register</title>
+</head>
+<body>
+    <div class="main-site">
+        <div class="navigation">
+            <nav class="main-nav sticky-top">
+                <a href="#">
+                  <img src="{% static 'logo.png'%}" width="30" height="30" class="d-inline-block align-top logo" alt="""><p id = "title1">CDT-AV</p></img>
+                </a>
+            </nav>
+        </div>         
+        
+        
+
+        <div class="form">
+            <form class="register" action="register" method="POST">
+              {% csrf_token %}
+              <input type="text" placeholder="first name" name="first_name"/>
+              <input type="text" placeholder="last name" name="last_name"/>
+              <input type="text" placeholder="username" name="username"/>
+              <input type="text" placeholder="email address" name="email"/>
+              <input type="password" placeholder="password" name="password"/>
+              <input type="password" placeholder="password2" name="password2"/>
+              
+              <button>create</button>
+              <p class="message">Already registered? <a href="login">Sign In</a></p>
+            </form>
+            <div class="">
+              {% for message in messages %}
+                <h3>{{message}}</h3>
+              {% endfor %}
+            </div>
+        </div>
+        
+        
+    </div>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

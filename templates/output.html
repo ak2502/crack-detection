@@ -1,0 +1,47 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static './style.css'%}">
+    <title>CDT-AV</title>
+    <link rel="icon" href="{%static 'logo.png'%}" type="image/png">
+</head>
+<body>
+
+    <div class="main-site">
+        <div class="navigation">
+            <nav class="main-nav sticky-top">
+                <a href="#">
+                  <img src="{% static 'logo.png'%}" width="30" height="30" class="d-inline-block align-top logo" alt="""><p id = "title1">CDT-AV</p></img>
+                </a>
+                {%if user.is_authenticated%}
+                    <p id="Signout1"><u><a href="login">Log Out </a></u></p>
+                {%else%}
+                    <p id="Signout1"><u><a href="register">Register </a></u></p>
+                    <p id="Signout1"><u><a href="login">Login </a></u></p>
+                {%endif%}
+              </nav>
+        </div>
+        <div class="card text-center main-card">
+            <div class="card-header">
+                <h2 id="titlee">The road ahead is ...</h2>
+                <h3> Covered with {{percentagecrack}} % cracks</h3>
+                <h4>{{string}}</h4>
+            </div>
+
+            <div class="card-body">
+                <img src="{{filepathname}}" height="275" width="auto"></img>
+                <form action="sendfile"><button class="btn btn-primary Sumit" type="submit">See the predicted image</button></form>
+                <form action="index"><button class="btn btn-primary Sumit" type="submit">Enter other data</button></form>
+                <!-- <form action="predicted"><button class="btn btn-primary Sumit" type="submit">See the predicted image</button></form> -->
+
+            </div>
+          </div>
+
+    </div>
+</body>
+</html>
+

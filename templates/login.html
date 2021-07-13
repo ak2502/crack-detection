@@ -1,0 +1,46 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static './style.css'%}">
+    <link rel="icon" href="{%static 'logo.png'%}" type="image/png">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="main-site">
+        <div class="navigation">
+            <nav class="main-nav sticky-top">
+                <a href="#">
+                  <img src="{% static 'logo.png'%}" width="30" height="30" class="d-inline-block align-top logo" alt=""/><p id = "title1">CDT-AV</p>
+                </a>
+              </nav>
+        </div>
+
+        <div class="login-page">
+            <div class="form">
+              <form class="login-form" method="POST" action="login">
+                {% csrf_token %}
+                <input type="text" placeholder="Username" name="username"/>
+                <input type="password" placeholder="password" name="password"/>
+                <button type="submit">login</button>
+                <p class="message">Not registered? <a href="register">Create an account</a></p>
+              </form>
+
+              <div class="">
+                {% for message in messages %}
+                  <h3>{{message}}</h3>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          
+        
+    </div>
+
+    <script src="./script.js" type="text/javascript"></script>
+   
+</body>
+</html>
