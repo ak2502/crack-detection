@@ -1,0 +1,209 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #1d3e53;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+    
+  /* Full height */
+    
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  /* background-image: url("./av.jpg"); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-nav{
+    text-align: center;
+    box-shadow: 1.5rem #888888;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#title1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 5.5rem;
+}
+.logo{
+    height: 14rem;
+    width: auto;
+    padding-top: 3rem;
+}
+#Signout1{
+    float: right;
+    color: black;
+    text-transform: initial;
+    font-weight: bolder;
+    padding: 0.5rem;
+    position: relative;
+}
+
+/*------------------------------------------main form -------------------------------------------*/
+#image_in{
+  padding: 1rem;
+  margin:0.5rem;
+  width: 50%;
+  position: relative;
+  border-radius: 0.8rem;
+}
+.main-card{
+    background-color: #77abb7;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 75%;
+    margin-top: 15rem;
+    padding: 5rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15rem;
+    border-radius: 2rem;
+}
+.Sumit{
+    margin-top: 1.2rem;
+    text-transform: capitalize;
+    padding: 1.5rem 2.5rem;
+}
+#titlee{
+    padding-bottom:0.8rem;
+    margin-bottom: 2rem;
+}
+.auto-dete{
+    margin-top: 1.2rem;
+    text-transform: capitalize;
+    padding: 1.5rem 2.5rem;
+    color: lemonchiffon;
+    background: #254b62;
+    float: right;
+}
+.cfile{
+  align-items: center;
+  text-align: center;
+
+
+}
+.upload{
+  background-color: #476d7c;
+}
+#in{
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+/*------------------------------------------end main form -------------------------------------------*/
+
+
+
+/*------------------------------------------output-------------------------------------------*/
+.list-items{
+    padding-top: 2rem;
+}
+
+
+/*------------------------------------------output-------------------------------------------*/
+
+
+.login-page {
+  size: 5rem;
+  height: 3rem;  
+  width: auto;
+  padding: 3.1rem 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 55px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #254b62;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #254b62;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #254b62;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
