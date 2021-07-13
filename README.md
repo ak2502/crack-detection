@@ -32,9 +32,13 @@ This project uses Python's OpenCV library to detect areas of crack and warn the 
  
 2. install all dependancies, preferably in a virtual environment.
     `sudo apt-get update`
+    
     `python -m pip install Django==3.2.3`
+    
     `sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'`
+    
     `wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -`
+    
     `sudo apt-get -y install postgresql`
 
     
