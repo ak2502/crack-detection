@@ -14,7 +14,7 @@ This project uses Python's OpenCV library to detect areas of crack and warn the 
 * The output shows percentage of crack and warns about the spped limit using this percentage.
 
 
-## TechStack
+## TechStack used
 
 * HTML - Frontend
 * CSS - Frontend
@@ -28,7 +28,7 @@ This project uses Python's OpenCV library to detect areas of crack and warn the 
 ## Steps for Installation and Setup
 
 1. Clone the repository 
-    `git clone https://github.com/WCoder007/FriendsCog.git`
+    `git clone https://github.com/ak2502/crack-detection.git`
  
 2. install all dependancies, preferably in a virtual environment.
     `sudo apt-get update`
