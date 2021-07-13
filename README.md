@@ -1,4 +1,4 @@
-## crack-detection
+## Crack Detection System
 
 This project uses Python's OpenCV library to detect areas of crack and warn the driver about the required speed limit as per the crack percentage.
 
