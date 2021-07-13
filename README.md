@@ -51,4 +51,11 @@ This project uses Python's OpenCV library to detect areas of crack and warn the 
 4. You can visit the web app at [localhost:(http://127.0.0.1:8000/)](http://127.0.0.1:8000/) in your browser
 
 
+![image](https://user-images.githubusercontent.com/56317982/125509290-d99f0279-7d6b-4112-84aa-6329f77455c5.png)
+![image](https://user-images.githubusercontent.com/56317982/125509409-d2ccb338-d93f-4621-9f31-b47f88088bc3.png)
+![image](https://user-images.githubusercontent.com/56317982/125509501-8fcf0452-e043-48db-ad9f-bd1a9b8670db.png)
+![image](https://user-images.githubusercontent.com/56317982/125509617-8dcfce87-9d8e-4866-a0f2-6278dd02f4f1.png)
+![image](https://user-images.githubusercontent.com/56317982/125509730-d2b03d7a-17cc-4477-8f23-62e2a1fc2b87.png)
+![image](https://user-images.githubusercontent.com/56317982/125509766-145782d7-254b-4a01-b684-cc95da9b7840.png)
+
 
