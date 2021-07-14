@@ -22,7 +22,7 @@ This project uses Python's OpenCV library and deep learning to detect areas of c
 * Javascript - Frontend
 * Django - Backend
 * Python - Deep Learning model
-* PostgresSQL - Database
+* PostgreSQL - Database
 
 
 ## Steps for Installation and Setup
