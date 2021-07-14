@@ -32,8 +32,8 @@ This project uses Python's OpenCV library and deep learning to detect areas of c
     `git clone https://github.com/ak2502/crack-detection.git`
  
 2. install all dependancies, preferably in a virtual environment.
-    `
-    sudo apt-get update`
+    
+    `sudo apt-get update`
     
     `python -m pip install Django==3.2.3`
     
